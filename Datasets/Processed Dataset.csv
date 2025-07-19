@@ -1,0 +1,195 @@
+Issue Key,Summary,Description,Assignee,Reporter,Issue Type,Priority,Status,Component,Created,Due Date
+SWP-1,User Authentication Failure,"Users unable to log in due to OAuth 2.0 token refresh failure, causing session timeouts.",Bob,Heidi,Bug,High,In Progress,Authentication,11-06-2025,25-06-2025
+SWP-2,Payment Gateway Transaction Error,"Stripe payments intermittently fail with 500 errors during webhook processing, causing order delays.",Eve,Grace,Bug,High,Open,Payment Processing,05-07-2025,16-07-2025
+SWP-3,Database Migration Tool,Create automated database migration scripts to transition from MySQL to PostgreSQL with data integrity validation and rollback capabilities.,Bob,Judy,Task,High,Done,Database,02-06-2025,10-06-2025
+SWP-4,Push Notification Delivery Issue,Push notifications not delivered to iOS devices due to incorrect APNs certificate configuration.,Eve,Ivan,Bug,Medium,In Progress,Notifications,23-06-2025,08-07-2025
+SWP-5,API Rate Limiting Implementation,"Build robust API rate limiting system with Redis backend, dynamic throttling, and detailed analytics for enterprise applications.",Frank,Ivan,Task,High,In Progress,API,04-06-2025,16-06-2025
+SWP-6,Chatbot Response Error,Customer support chatbot fails to escalate tickets to human agents when keywords are misparsed.,Bob,Grace,Bug,Medium,Open,Chat System,02-06-2025,11-06-2025
+SWP-7,CMS Content Loss,"Headless CMS loses draft content during version control sync, affecting multi-language pages.",Frank,Grace,Bug,High,In Progress,Content Management,16-05-2025,28-05-2025
+SWP-8,Data Analytics Dashboard,"Create interactive business intelligence dashboard with real-time metrics, custom reports, and data visualization components.",Frank,Heidi,Story,Medium,In Progress,Analytics,06-06-2025,19-06-2025
+SWP-9,Inventory System Stock Mismatch,Warehouse inventory shows incorrect stock levels due to barcode scanner sync failures.,Eve,Ivan,Bug,High,Open,Inventory Management,30-05-2025,05-06-2025
+SWP-10,Email Campaign Delivery Failure,Email campaigns not delivered to Gmail users due to SPF record misconfiguration.,Eve,Ivan,Bug,Medium,In Progress,Email Marketing,05-07-2025,19-07-2025
+SWP-11,Video Streaming Buffering Issue,Videos buffer excessively on low-bandwidth connections despite CDN integration.,Alice,Heidi,Bug,High,Open,Video Streaming,23-06-2025,06-07-2025
+SWP-12,Social Media Post Scheduling Error,Scheduled posts fail to publish on Twitter due to API token expiration.,Eve,Ivan,Bug,Medium,In Progress,Social Media,20-05-2025,31-05-2025
+SWP-13,Document Access Permission Bug,Users with read-only permissions can edit documents due to incorrect access control checks.,Diana,Grace,Bug,High,Open,Document Management,25-05-2025,08-06-2025
+SWP-14,Appointment Scheduling Conflict,Online booking platform allows double-booking due to calendar sync failures.,Bob,Heidi,Bug,Medium,In Progress,Scheduling,19-05-2025,27-05-2025
+SWP-15,Chat Message Encryption Failure,"Messages in group chats are not encrypted, exposing sensitive user data.",Charlie,Heidi,Bug,High,Open,Chat System,13-05-2025,16-05-2025
+SWP-16,Performance Monitoring Tool,"Build application performance monitoring with error tracking, response time analysis, and automated alerting system.",Eve,Heidi,Task,High,In Progress,Monitoring,06-07-2025,11-07-2025
+SWP-17,Code Review Platform,"Develop collaborative code review system with diff visualization, comment threading, approval workflows, and Git integration.",Frank,Heidi,Story,Medium,Done,Code Review,22-05-2025,05-06-2025
+SWP-18,Backup Restoration Failure,"Incremental backups fail to restore correctly, causing data loss during recovery.",Charlie,Grace,Bug,High,In Progress,Backup,07-07-2025,19-07-2025
+SWP-19,Search Functionality Crash,Website search crashes when Elasticsearch query exceeds memory limits.,Charlie,Grace,Bug,Medium,Open,Search,25-06-2025,06-07-2025
+SWP-20,SSO Login Timeout,Enterprise SSO system times out during SAML authentication with Azure AD.,Eve,Judy,Bug,High,In Progress,Authentication,24-06-2025,30-06-2025
+SWP-21,Microservices Deployment Failure,Microservices fail to deploy due to service discovery misconfiguration.,Frank,Grace,Bug,High,Open,Microservices,05-06-2025,18-06-2025
+SWP-22,Continuous Integration Pipeline,"Set up CI/CD pipeline with automated testing, code quality checks, deployment automation, and rollback capabilities.",Bob,Judy,Task,High,Done,CI/CD,05-07-2025,10-07-2025
+SWP-23,Machine Learning Model,"Develop predictive analytics model for customer churn with data preprocessing, model training, and production deployment.",Alice,Grace,Task,High,In Progress,Machine Learning,07-07-2025,22-07-2025
+SWP-24,IoT Device Firmware Update Error,"IoT devices fail to apply firmware updates, causing connectivity issues.",Alice,Heidi,Bug,High,In Progress,IoT,19-06-2025,28-06-2025
+SWP-25,Blockchain Transaction Delay,Blockchain supply chain transactions are delayed due to smart contract gas limit errors.,Eve,Judy,Bug,High,Open,Blockchain,31-05-2025,05-06-2025
+SWP-26,Cloud Migration Data Loss,Data is lost during AWS migration due to incomplete containerization.,Eve,Judy,Bug,High,Blocked,Cloud Infrastructure,08-06-2025,19-06-2025
+SWP-27,Security Audit False Positives,Security scanning tool reports false positives for non-existent vulnerabilities.,Bob,Judy,Bug,Medium,In Progress,Security,21-06-2025,25-06-2025
+SWP-28,Employee Onboarding Portal,"Create digital onboarding platform with document collection, training modules, and progress tracking for HR department.",Eve,Ivan,Story,Medium,Done,HR Management,02-07-2025,09-07-2025
+SWP-29,Geolocation Tracking Inaccuracy,GPS tracking shows incorrect user locations due to geofencing calculation errors.,Diana,Ivan,Bug,Medium,Open,Geolocation,01-07-2025,16-07-2025
+SWP-30,File Synchronization System,"Develop cross-platform file sync service with conflict resolution, offline access, and sharing capabilities.",Charlie,Heidi,Story,Medium,Done,File Sync,25-06-2025,03-07-2025
+SWP-31,Order Processing Payment Failure,E-commerce orders fail due to payment verification errors with PayPal.,Charlie,Grace,Bug,High,In Progress,Order Management,21-05-2025,03-06-2025
+SWP-32,User Interface Rendering Issue,Application UI fails to render correctly on mobile devices due to CSS conflicts.,Charlie,Heidi,Bug,Medium,In Progress,User Interface,21-05-2025,04-06-2025
+SWP-33,Logging and Monitoring,"Implement centralized logging system with log aggregation, search capabilities, and real-time monitoring dashboards.",Alice,Grace,Task,High,Done,Monitoring,29-06-2025,12-07-2025
+SWP-34,Third-party API Integration,"Integrate multiple external APIs with error handling, rate limiting, data transformation, and caching mechanisms.",Frank,Judy,Task,Medium,Blocked,API,29-06-2025,10-07-2025
+SWP-35,Automated Testing Framework,"Create comprehensive test automation suite with unit tests, integration tests, and end-to-end testing scenarios.",Eve,Heidi,Task,High,Done,Testing,23-06-2025,02-07-2025
+SWP-36,Content Delivery Network,"Deploy CDN infrastructure with edge caching, image optimization, and global content distribution capabilities.",Alice,Ivan,Task,High,Done,CDN,04-06-2025,19-06-2025
+SWP-37,Feedback Collection System,"Build user feedback platform with surveys, ratings, sentiment analysis, and automated response categorization.",Frank,Ivan,Story,Medium,In Progress,Feedback,24-05-2025,08-06-2025
+SWP-38,Notification Management,"Create unified notification system supporting email, SMS, push notifications with user preferences and delivery tracking.",Bob,Heidi,Story,Medium,In Progress,Notifications,26-06-2025,06-07-2025
+SWP-39,Data Validation Framework,"Implement robust data validation with custom rules, error reporting, and data quality monitoring across applications.",Charlie,Grace,Task,High,Done,Data Quality,03-07-2025,18-07-2025
+SWP-40,Caching Strategy Implementation,"Deploy multi-level caching strategy with Redis, application-level caching, and cache invalidation mechanisms.",Charlie,Heidi,Task,High,In Progress,Caching,20-06-2025,02-07-2025
+SWP-41,Reporting Engine,"Build flexible reporting system with custom report builder, scheduled reports, and multiple export formats.",Alice,Judy,Story,Medium,Done,Reporting,03-06-2025,15-06-2025
+SWP-42,Workflow Automation Error,Business process automation fails to assign tasks due to approval chain misconfiguration.,Frank,Heidi,Bug,Medium,Open,Workflow,07-06-2025,15-06-2025
+SWP-43,Multi-tenant Data Leak,SaaS multi-tenant system exposes tenant data due to improper data isolation.,Charlie,Ivan,Bug,High,In Progress,Multi-tenancy,08-06-2025,21-06-2025
+SWP-44,API Documentation Portal,"Build interactive API documentation with code examples, testing interface, and version management features.",Frank,Heidi,Story,Medium,Done,API,15-05-2025,27-05-2025
+SWP-45,Event-driven Message Loss,Event sourcing system loses messages due to queue overflow.,Frank,Ivan,Bug,High,Open,Event System,11-05-2025,21-05-2025
+SWP-46,Configuration Management,"Create centralized configuration system with environment-specific settings, secret management, and dynamic updates.",Frank,Ivan,Task,High,Done,Configuration,22-06-2025,26-06-2025
+SWP-47,Health Check System,"Develop application health monitoring with service dependency checks, automated recovery, and alerting mechanisms.",Eve,Grace,Task,High,In Progress,Monitoring,05-07-2025,15-07-2025
+SWP-48,Audit Trail Implementation,"Build comprehensive audit logging with user action tracking, data change history, and compliance reporting.",Alice,Grace,Task,High,Done,Audit,31-05-2025,15-06-2025
+SWP-49,Load Testing Framework,"Create performance testing suite with load generation, bottleneck identification, and scalability analysis tools.",Alice,Judy,Task,Medium,In Progress,Testing,27-05-2025,01-06-2025
+SWP-50,Feature Flag System,"Implement feature toggles with gradual rollout, A/B testing capabilities, and real-time feature management.",Bob,Judy,Task,Medium,Done,Feature Management,14-06-2025,24-06-2025
+SWP-51,CRM Contact Sync Failure,CRM system fails to sync contacts with external email platforms.,Alice,Ivan,Bug,High,In Progress,CRM,17-06-2025,23-06-2025
+SWP-52,Time Tracking Application,"Develop time tracking tool with project allocation, timesheet management, and productivity analytics.",Bob,Heidi,Story,Medium,Done,Time Tracking,23-06-2025,27-06-2025
+SWP-53,Knowledge Base System,"Create searchable knowledge base with article management, categorization, and user contribution features.",Eve,Grace,Story,Low,Open,Knowledge Base,26-05-2025,10-06-2025
+SWP-54,Bug Tracking System,"Build issue tracking platform with bug reporting, assignment workflows, and resolution tracking capabilities.",Diana,Heidi,Story,Medium,Done,Testing,13-05-2025,23-05-2025
+SWP-55,Asset Tracking Discrepancy,IT asset tracking system shows incorrect software license counts.,Diana,Heidi,Bug,Medium,Open,Asset Management,07-07-2025,17-07-2025
+SWP-56,Subscription Billing Error,Recurring billing system charges incorrect amounts due to plan miscalculation.,Diana,Heidi,Bug,High,In Progress,Payment Processing,28-05-2025,31-05-2025
+SWP-57,Project Portfolio Management,"Build project tracking with resource allocation, milestone tracking, and portfolio-level reporting.",Charlie,Judy,Epic,Medium,In Progress,Project Management,04-07-2025,11-07-2025
+SWP-58,Compliance Monitoring,"Implement regulatory compliance tracking with audit preparation, violation detection, and remediation workflows.",Frank,Grace,Task,High,In Progress,Compliance,15-06-2025,30-06-2025
+SWP-59,Vendor Management System,"Create supplier relationship management with contract tracking, performance evaluation, and procurement workflows.",Diana,Grace,Epic,Medium,Done,Vendor Management,08-07-2025,20-07-2025
+SWP-60,Quality Assurance Platform,"Build testing management system with test case creation, execution tracking, and defect reporting.",Frank,Grace,Story,Medium,Done,Testing,18-05-2025,02-06-2025
+SWP-61,Digital Signature Verification Failure,Electronic signatures fail verification due to certificate mismatch.,Diana,Judy,Bug,Medium,In Progress,Document Management,24-06-2025,08-07-2025
+SWP-62,Expense Management System,"Create expense tracking with receipt scanning, approval workflows, and reimbursement processing.",Frank,Grace,Story,Medium,Done,Expense Management,05-06-2025,20-06-2025
+SWP-63,Learning Management Course Access Issue,Online training platform denies access to enrolled users due to role misconfiguration.,Diana,Judy,Bug,Medium,Open,Learning Management,14-05-2025,18-05-2025
+SWP-64,Risk Assessment Tool,"Develop risk management system with threat identification, impact analysis, and mitigation planning.",Frank,Ivan,Task,High,In Progress,Risk Management,06-06-2025,18-06-2025
+SWP-65,Survey Platform,"Create survey creation and distribution system with response collection, analysis, and reporting capabilities.",Diana,Heidi,Story,Medium,Done,Feedback,10-06-2025,25-06-2025
+SWP-66,Calendar Integration,"Implement calendar synchronization with multiple providers, scheduling conflicts detection, and meeting management.",Charlie,Ivan,Story,Medium,Done,Scheduling,25-06-2025,02-07-2025
+SWP-67,Ticketing System,"Build support ticket management with priority queues, SLA tracking, and customer communication tools.",Bob,Judy,Story,Medium,Done,Support,05-06-2025,18-06-2025
+SWP-68,Warehouse Management,"Create inventory control system with picking optimization, shipping integration, and stock level monitoring.",Eve,Ivan,Epic,High,Done,Inventory Management,23-06-2025,03-07-2025
+SWP-69,Lead Management System,"Build sales lead tracking with scoring algorithms, nurturing campaigns, and conversion analytics.",Charlie,Heidi,Story,Medium,In Progress,Sales,25-05-2025,29-05-2025
+SWP-70,Performance Review Platform,"Develop employee evaluation system with goal setting, 360-degree feedback, and performance analytics.",Frank,Ivan,Story,Medium,Done,HR Management,04-06-2025,08-06-2025
+SWP-71,Deployment Automation,"Create automated deployment pipeline with blue-green deployments, rollback capabilities, and environment management.",Charlie,Grace,Task,High,Done,CI/CD,24-05-2025,27-05-2025
+SWP-72,Data Synchronization,Implement real-time data sync between multiple systems with conflict resolution and consistency guarantees.,Bob,Grace,Task,High,In Progress,Data Sync,12-05-2025,19-05-2025
+SWP-73,Mobile Device Policy Enforcement Failure,MDM solution fails to enforce policies on enrolled Android devices.,Bob,Heidi,Bug,High,Open,Mobile Device Management,04-06-2025,19-06-2025
+SWP-74,Content Moderation System,"Create automated content filtering with machine learning models, human review workflows, and policy enforcement.",Bob,Judy,Task,High,In Progress,Content Moderation,29-05-2025,08-06-2025
+SWP-75,Disaster Recovery Planning,"Implement business continuity system with backup procedures, recovery testing, and failover automation.",Frank,Grace,Epic,High,Done,Backup,04-07-2025,19-07-2025
+SWP-76,Integration Testing Suite,"Build comprehensive integration testing with service mocking, contract testing, and dependency validation.",Bob,Grace,Task,Medium,Done,Testing,06-06-2025,15-06-2025
+SWP-77,User Access Management,"Create role-based access control with permission management, user provisioning, and access reviews.",Frank,Heidi,Task,High,Done,Authentication,17-06-2025,24-06-2025
+SWP-78,Metrics Collection Dashboard Crash,Business metrics dashboard crashes when rendering large datasets.,Alice,Grace,Bug,Medium,In Progress,Analytics,09-06-2025,14-06-2025
+SWP-79,Code Quality Analysis,"Implement static code analysis with quality gates, technical debt tracking, and improvement recommendations.",Eve,Judy,Task,Medium,Done,Code Quality,30-06-2025,10-07-2025
+SWP-80,Customer Segmentation Error,Customer classification system missegments users due to incorrect behavioral data parsing.,Frank,Grace,Bug,Medium,Open,Analytics,08-06-2025,23-06-2025
+SWP-81,Fraud Detection System,"Build real-time fraud monitoring with machine learning models, rule engines, and investigation workflows.",Eve,Judy,Task,High,In Progress,Fraud Detection,22-05-2025,04-06-2025
+SWP-82,Capacity Planning Tool,"Develop resource planning system with usage forecasting, scaling recommendations, and cost optimization.",Bob,Ivan,Task,Medium,In Progress,Resource Management,23-06-2025,02-07-2025
+SWP-83,Service Mesh Implementation,"Deploy microservices communication layer with traffic management, security policies, and observability.",Alice,Judy,Epic,High,In Progress,Microservices,31-05-2025,11-06-2025
+SWP-84,Data Governance Reporting Failure,Data management system fails to generate compliance reports due to lineage tracking errors.,Diana,Judy,Bug,High,In Progress,Data Governance,19-06-2025,04-07-2025
+SWP-85,Personalization Engine,"Build recommendation system with user behavior analysis, content matching, and A/B testing capabilities.",Alice,Grace,Story,Medium,In Progress,Personalization,29-05-2025,11-06-2025
+SWP-86,Network Monitoring System,"Implement network performance monitoring with topology mapping, issue detection, and troubleshooting tools.",Alice,Judy,Task,High,Done,Monitoring,04-06-2025,08-06-2025
+SWP-87,Contract Management System,"Create contract lifecycle management with template creation, approval workflows, and renewal tracking.",Diana,Heidi,Epic,Medium,Done,Contract Management,13-05-2025,23-05-2025
+SWP-88,Incident Response Platform,"Build incident management system with escalation procedures, communication tools, and post-mortem analysis.",Diana,Ivan,Task,High,In Progress,Incident Management,03-06-2025,18-06-2025
+SWP-89,Competitive Intelligence,"Develop market analysis tool with competitor tracking, pricing monitoring, and trend identification.",Diana,Ivan,Story,Medium,Open,Analytics,26-05-2025,03-06-2025
+SWP-90,Resource Optimization,"Create resource allocation system with demand forecasting, utilization tracking, and optimization algorithms.",Diana,Grace,Story,Medium,In Progress,Resource Management,30-05-2025,07-06-2025
+SWP-91,Digital Asset Metadata Corruption,Media asset library corrupts metadata during bulk uploads.,Eve,Ivan,Bug,Medium,Open,Asset Management,02-07-2025,06-07-2025
+SWP-92,Customer Journey Mapping,"Create touchpoint analysis system with interaction tracking, journey visualization, and optimization insights.",Bob,Grace,Story,Medium,In Progress,Analytics,22-05-2025,01-06-2025
+SWP-93,Pricing Strategy Tool,"Develop dynamic pricing system with market analysis, competitor monitoring, and profit optimization.",Diana,Ivan,Story,Medium,In Progress,Pricing,16-06-2025,29-06-2025
+SWP-94,Maintenance Scheduling,"Build preventive maintenance system with asset tracking, schedule optimization, and work order management.",Bob,Grace,Story,Medium,Done,Maintenance,10-06-2025,19-06-2025
+SWP-95,Performance Benchmarking,"Create performance comparison system with industry benchmarks, metrics tracking, and improvement recommendations.",Alice,Ivan,Story,Medium,Open,Analytics,29-05-2025,06-06-2025
+SWP-96,Supplier Portal,"Build vendor collaboration platform with order management, document sharing, and performance tracking.",Diana,Heidi,Story,Medium,Done,Vendor Management,19-06-2025,29-06-2025
+SWP-97,Customer Onboarding,"Create user onboarding flow with progress tracking, tutorial system, and success metrics collection.",Charlie,Heidi,Story,Medium,Done,Onboarding,05-07-2025,09-07-2025
+SWP-98,Data Archiving System,"Create data lifecycle management with automated archiving, retention policies, and retrieval capabilities.",Charlie,Heidi,Story,Medium,Done,Data Management,21-05-2025,30-05-2025
+SWP-99,Geographic Information System,"Build mapping platform with spatial analysis, location intelligence, and visualization tools.",Charlie,Grace,Story,Medium,In Progress,Geolocation,22-06-2025,05-07-2025
+SWP-100,Sentiment Analysis Tool,"Create text analysis system with emotion detection, trend monitoring, and reputation management.",Charlie,Heidi,Story,Low,Open,Analytics,21-05-2025,02-06-2025
+SWP-101,Event Management Platform,"Build event planning system with registration, ticketing, attendee management, and analytics.",Frank,Heidi,Story,Medium,Done,Event Management,28-05-2025,10-06-2025
+SWP-102,Product Catalog Management,"Create product information system with specifications, pricing, availability, and relationship management.",Charlie,Ivan,Story,Medium,Done,Product Management,14-05-2025,28-05-2025
+SWP-103,Loyalty Program Points Miscalculation,Customer rewards platform miscalculates points for certain transactions.,Diana,Ivan,Bug,Medium,In Progress,Loyalty Program,06-07-2025,20-07-2025
+SWP-104,Fleet Management System,"Create vehicle tracking platform with route optimization, maintenance scheduling, and driver management.",Charlie,Grace,Story,Medium,Done,Fleet Management,22-05-2025,06-06-2025
+SWP-105,Collaboration Platform,"Build team workspace with file sharing, communication tools, and project coordination features.",Charlie,Judy,Story,Medium,Done,Collaboration,23-06-2025,06-07-2025
+SWP-106,Inventory Forecasting,"Develop demand prediction system with historical analysis, trend identification, and reorder automation.",Charlie,Heidi,Story,Medium,In Progress,Inventory Management,10-05-2025,23-05-2025
+SWP-107,Customer Support Analytics Dashboard Failure,Support metrics dashboard fails to load ticket analysis data due to API errors.,Alice,Ivan,Bug,Medium,Open,Analytics,20-06-2025,30-06-2025
+SWP-108,Content Recommendation,"Build personalized content system with user profiling, content matching, and engagement optimization.",Frank,Judy,Story,Medium,In Progress,Personalization,14-06-2025,26-06-2025
+SWP-109,Financial Reporting System,"Create automated financial reporting with data consolidation, compliance checking, and visualization.",Frank,Ivan,Task,High,Done,Reporting,18-05-2025,24-05-2025
+SWP-110,Healthcare Patient Record Access Issue,Patient management platform denies access to medical records for authorized users.,Charlie,Grace,Bug,High,In Progress,Healthcare,16-06-2025,25-06-2025
+SWP-111,Educational Assessment Tool,"Create online testing platform with question banks, automated grading, and progress tracking.",Alice,Grace,Story,Medium,Done,Education,24-06-2025,09-07-2025
+SWP-112,Environmental Monitoring,"Build sensor data collection system with real-time monitoring, alerting, and compliance reporting.",Bob,Ivan,Story,Medium,In Progress,Monitoring,10-06-2025,25-06-2025
+SWP-113,Manufacturing Execution,"Create production management system with workflow tracking, quality control, and efficiency monitoring.",Alice,Heidi,Epic,High,Done,Manufacturing,23-05-2025,26-05-2025
+SWP-114,Real Estate Management,"Create property management platform with tenant tracking, maintenance requests, and financial reporting.",Eve,Grace,Story,Medium,Done,Real Estate,16-05-2025,30-05-2025
+SWP-115,Transportation Management,"Create logistics platform with route planning, carrier management, and shipment tracking.",Eve,Grace,Epic,High,Done,Logistics,19-06-2025,03-07-2025
+SWP-116,Energy Management System,"Build utility monitoring platform with consumption tracking, optimization recommendations, and cost analysis.",Alice,Judy,Story,Medium,In Progress,Energy Management,07-06-2025,21-06-2025
+SWP-117,Regulatory Compliance,"Create compliance management system with requirement tracking, audit preparation, and violation reporting.",Frank,Ivan,Task,High,In Progress,Compliance,23-05-2025,01-06-2025
+SWP-118,Digital Marketing Campaign Tracking Error,Campaign management system fails to track multi-channel performance metrics.,Eve,Heidi,Bug,Medium,Open,Marketing,25-05-2025,03-06-2025
+SWP-119,Insurance Claims System,"Create claims processing platform with intake forms, adjustment, and settlement tracking.",Diana,Ivan,Task,High,Done,Claims Management,03-06-2025,16-06-2025
+SWP-120,Talent Management System,"Build HR platform with recruitment tracking, performance management, and career development tools.",Alice,Ivan,Epic,Medium,Done,HR Management,11-06-2025,26-06-2025
+SWP-121,Supply Chain Analytics,"Create visibility platform with supplier performance, demand forecasting, and risk assessment.",Frank,Judy,Epic,High,In Progress,Supply Chain,30-06-2025,14-07-2025
+SWP-122,Customer Experience Platform,"Build journey orchestration system with touchpoint management, feedback collection, and optimization.",Frank,Judy,Story,Medium,In Progress,Analytics,15-05-2025,21-05-2025
+SWP-123,Procurement Management,"Create purchasing system with requisition workflows, vendor selection, and contract management.",Diana,Grace,Story,Medium,Done,Procurement,26-06-2025,08-07-2025
+SWP-124,Quality Management System,"Create quality control platform with inspection tracking, nonconformance management, and certification.",Bob,Heidi,Story,Medium,Done,Quality Management,26-06-2025,08-07-2025
+SWP-125,Project Resource Planning,"Create resource allocation system with skill matching, availability tracking, and utilization optimization.",Bob,Ivan,Story,Medium,In Progress,Resource Management,18-05-2025,25-05-2025
+SWP-126,Customer Data Profile Sync Failure,Unified customer profile system fails to sync data from external CRM.,Frank,Grace,Bug,High,In Progress,CRM,19-06-2025,26-06-2025
+SWP-127,Facility Management System,"Create building management platform with space utilization, maintenance scheduling, and energy monitoring.",Charlie,Judy,Story,Medium,Done,Facility Management,02-07-2025,06-07-2025
+SWP-128,Sales Performance Analytics,"Build sales metrics dashboard with quota tracking, pipeline analysis, and forecasting capabilities.",Bob,Ivan,Story,Medium,In Progress,Analytics,14-06-2025,20-06-2025
+SWP-129,Document Workflow System,"Create document approval platform with routing rules, electronic signatures, and version control.",Bob,Heidi,Story,Medium,Done,Document Management,01-07-2025,10-07-2025
+SWP-130,Predictive Maintenance,"Build equipment monitoring system with failure prediction, maintenance scheduling, and cost optimization.",Alice,Judy,Task,High,In Progress,Maintenance,24-05-2025,28-05-2025
+SWP-131,Customer Feedback Platform,"Create feedback collection system with survey distribution, sentiment analysis, and action tracking.",Charlie,Heidi,Story,Medium,In Progress,Feedback,12-06-2025,27-06-2025
+SWP-132,Inventory Optimization,"Build stock management system with demand forecasting, safety stock calculation, and reorder automation.",Eve,Judy,Story,Medium,In Progress,Inventory Management,26-06-2025,07-07-2025
+SWP-133,Marketing Automation,"Build campaign execution platform with lead nurturing, scoring algorithms, and conversion tracking.",Alice,Grace,Story,Medium,In Progress,Marketing,25-06-2025,06-07-2025
+SWP-134,Business Intelligence System,"Build data analytics platform with ETL processes, data modeling, and execution dashboards.",Bob,Heidi,Epic,High,In Progress,Analytics,05-06-2025,17-06-2025
+SWP-135,Service Desk Management,"Create IT service management system with ticket routing, SLA monitoring, and knowledge base.",Diana,Ivan,Story,Medium,Done,Support,13-05-2025,26-05-2025
+SWP-136,Performance Management,"Create employee evaluation system with goal tracking, feedback collection, and development planning.",Eve,Grace,Story,Medium,Done,HR Management,21-05-2025,29-05-2025
+SWP-137,Compliance Training System,"Create training management platform with course delivery, completion tracking, and certification management.",Frank,Grace,Story,Medium,Done,Training,25-05-2025,06-06-2025
+SWP-138,Competitive Analysis Tool,"Build market intelligence system with competitor monitoring, pricing analysis, and trend identification.",Frank,Heidi,Story,Medium,Open,Analytics,10-06-2025,18-06-2025
+SWP-139,Customer Retention Platform,"Create churn prevention system with risk scoring, intervention campaigns, and success tracking.",Frank,Grace,Story,Medium,In Progress,CRM,22-05-2025,02-06-2025
+SWP-140,Order Fulfillment System,"Create order processing platform with inventory allocation, picking optimization, and shipping integration.",Diana,Judy,Task,High,Done,Order Management,11-05-2025,26-05-2025
+SWP-141,Revenue Recognition System,"Create financial management platform with revenue tracking, contract analysis, and compliance reporting.",Charlie,Heidi,Task,High,Done,Financial Management,27-06-2025,05-07-2025
+SWP-142,Digital Transformation Error,Modernization platform fails to integrate legacy systems due to API incompatibilities.,Alice,Ivan,Bug,High,In Progress,Integration,03-06-2025,14-06-2025
+SWP-143,Sustainability Tracking,"Create environmental impact system with carbon footprint calculation, reporting, and improvement tracking.",Charlie,Grace,Story,Medium,Open,Analytics,14-05-2025,22-05-2025
+SWP-144,Customer Success Platform,"Create customer health monitoring system with usage analytics, risk identification, and engagement tracking.",Alice,Ivan,Story,Medium,In Progress,CRM,25-05-2025,09-06-2025
+SWP-145,Workflow Optimization,"Create process improvement system with bottleneck identification, efficiency metrics, and automation recommendations.",Frank,Heidi,Story,Medium,In Progress,Workflow,11-05-2025,25-05-2025
+SWP-146,Data Privacy Consent Error,Privacy compliance system fails to record user consent accurately.,Frank,Judy,Bug,High,Open,Data Privacy,01-06-2025,07-06-2025
+SWP-147,Innovation Management,"Create idea management platform with submission workflows, evaluation criteria, and implementation tracking.",Diana,Judy,Story,Low,Open,Innovation,15-05-2025,20-05-2025
+SWP-148,Vendor Risk Assessment,"Build supplier evaluation system with risk scoring, monitoring procedures, and mitigation strategies.",Alice,Grace,Task,Medium,In Progress,Risk Management,28-05-2025,04-06-2025
+SWP-149,Customer Communication,"Build omnichannel communication system with message routing, response tracking, and personalization.",Bob,Judy,Story,Medium,In Progress,Communication,12-06-2025,20-06-2025
+SWP-150,Performance Optimization,"Build system tuning platform with bottleneck identification, resource optimization, and monitoring tools.",Charlie,Heidi,Task,Medium,In Progress,Performance,10-06-2025,13-06-2025
+SWP-151,Digital Workplace,"Create employee portal with self-service capabilities, collaboration tools, and productivity analytics.",Frank,Heidi,Story,Medium,Open,Collaboration,22-06-2025,07-07-2025
+SWP-152,Market Research Platform,"Create research management system with survey design, data collection, and analysis capabilities.",Eve,Judy,Story,Medium,Open,Analytics,14-06-2025,18-06-2025
+SWP-153,Product Development,"Create innovation pipeline system with ideation, prototyping, and launch management features.",Diana,Grace,Story,Medium,In Progress,Product Management,08-06-2025,12-06-2025
+SWP-154,Strategic Planning Tool,"Create planning platform with goal setting, initiative tracking, and progress monitoring capabilities.",Charlie,Heidi,Story,Medium,Open,Planning,08-07-2025,20-07-2025
+SWP-155,Customer Acquisition,"Create lead generation system with campaign management, conversion tracking, and attribution analysis.",Eve,Grace,Story,Medium,In Progress,Sales,28-06-2025,07-07-2025
+SWP-156,Operational Excellence,"Create process improvement platform with metric tracking, root cause analysis, and action planning.",Alice,Ivan,Story,Medium,In Progress,Workflow,21-06-2025,27-06-2025
+SWP-157,Digital Experience Platform,"Create customer journey system with touchpoint optimization, personalization, and engagement tracking.",Bob,Judy,Story,Medium,In Progress,Analytics,16-06-2025,30-06-2025
+SWP-158,Change Management System,"Create organizational change platform with communication tools, training modules, and adoption tracking.",Bob,Grace,Story,Medium,Open,Change Management,11-05-2025,19-05-2025
+SWP-159,Knowledge Management,"Create information sharing system with content curation, search capabilities, and expertise location.",Charlie,Ivan,Story,Low,Open,Knowledge Base,02-07-2025,17-07-2025
+SWP-160,Customer Intelligence,"Build analytics platform with behavioral analysis, predictive modeling, and insight generation.",Diana,Ivan,Story,Medium,In Progress,Analytics,21-06-2025,26-06-2025
+SWP-161,Process Automation,"Create workflow automation system with rule engines, task orchestration, and exception handling.",Eve,Heidi,Task,Medium,In Progress,Workflow,05-07-2025,16-07-2025
+SWP-162,Resource Planning System,"Create capacity management platform with demand forecasting, resource allocation, and optimization.",Diana,Heidi,Story,Medium,In Progress,Resource Management,08-07-2025,22-07-2025
+SWP-163,Partnership Management,"Create partner relationship system with onboarding, performance tracking, and collaboration tools.",Alice,Grace,Story,Medium,Open,Collaboration,04-06-2025,17-06-2025
+SWP-164,Brand Management Platform,"Create brand monitoring system with reputation tracking, sentiment analysis, and response management.",Diana,Grace,Story,Medium,In Progress,Analytics,21-05-2025,26-05-2025
+SWP-165,Cybersecurity Framework,"Create security management system with threat detection, incident response, and compliance monitoring.",Charlie,Ivan,Task,High,In Progress,Security,28-06-2025,08-07-2025
+SWP-166,Data Integration Platform,"Build data pipeline system with ETL processes, data quality monitoring, and real-time synchronization.",Alice,Grace,Task,High,In Progress,Integration,20-06-2025,04-07-2025
+SWP-167,Customer Engagement,"Build interaction management system with touchpoint tracking, engagement scoring, and optimization.",Diana,Heidi,Story,Medium,In Progress,CRM,29-05-2025,10-06-2025
+SWP-168,Business Continuity,"Create continuity planning system with risk assessment, recovery procedures, and testing protocols.",Diana,Grace,Task,High,Done,Backup,25-05-2025,09-06-2025
+SWP-169,Competitive Intelligence,"Create market monitoring system with competitor analysis, pricing tracking, and opportunity identification.",Frank,Heidi,Story,Medium,Open,Analytics,24-06-2025,09-07-2025
+SWP-170,Digital Strategy Platform,"Create strategy management system with initiative tracking, performance monitoring, and alignment tools.",Charlie,Judy,Story,Medium,Open,Planning,05-06-2025,20-06-2025
+SWP-171,Customer Value Management,"Create value optimization system with lifetime value calculation, segmentation, and retention strategies.",Eve,Judy,Story,Medium,In Progress,CRM,03-07-2025,18-07-2025
+SWP-172,Operational Analytics,"Create performance monitoring system with KPI tracking, trend analysis, and predictive insights.",Charlie,Heidi,Story,Medium,In Progress,Analytics,31-05-2025,15-06-2025
+SWP-173,Stakeholder Management,"Create relationship management system with communication tracking, engagement planning, and feedback collection.",Charlie,Heidi,Story,Medium,Open,Collaboration,28-05-2025,02-06-2025
+SWP-174,Innovation Pipeline,"Create idea management system with evaluation workflows, resource allocation, and implementation tracking.",Eve,Ivan,Story,Low,Open,Innovation,15-05-2025,20-05-2025
+SWP-175,Customer Experience Analytics,"Create journey analysis system with touchpoint measurement, satisfaction tracking, and optimization.",Bob,Ivan,Story,Medium,In Progress,Analytics,27-05-2025,08-06-2025
+SWP-176,Digital Transformation,"Create modernization platform with technology assessment, roadmap planning, and implementation tracking.",Diana,Grace,Epic,High,In Progress,Integration,04-07-2025,14-07-2025
+SWP-177,Risk Management Platform,"Create risk assessment system with identification, evaluation, and mitigation planning capabilities.",Alice,Heidi,Task,High,In Progress,Risk Management,01-07-2025,11-07-2025
+SWP-178,Performance Intelligence,"Create analytics platform with performance measurement, benchmarking, and improvement recommendations.",Frank,Ivan,Story,Medium,In Progress,Analytics,04-06-2025,13-06-2025
+SWP-179,Customer Lifecycle Management,"Create lifecycle tracking system with stage identification, transition management, and value optimization.",Diana,Heidi,Story,Medium,In Progress,CRM,24-06-2025,29-06-2025
+SWP-180,Business Process Management,"Create process optimization system with modeling, automation, and continuous improvement capabilities.",Bob,Ivan,Story,Medium,In Progress,Workflow,06-07-2025,18-07-2025
+SWP-181,Market Intelligence Platform,"Create market analysis system with trend identification, competitive positioning, and opportunity assessment.",Alice,Grace,Story,Medium,Open,Analytics,06-06-2025,15-06-2025
+SWP-182,Customer Success Analytics,"Create success measurement system with health scoring, intervention triggers, and outcome tracking.",Frank,Judy,Story,Medium,In Progress,CRM,05-06-2025,12-06-2025
+SWP-183,Digital Innovation Lab,"Create experimentation platform with prototype development, testing frameworks, and innovation metrics.",Charlie,Grace,Story,Low,Open,Innovation,16-05-2025,25-05-2025
+SWP-184,Sustainability Management,"Create environmental tracking system with impact measurement, reporting, and improvement planning.",Eve,Ivan,Story,Medium,Open,Analytics,02-07-2025,14-07-2025
+SWP-185,Customer Advocacy Program,"Create advocacy management system with referral tracking, reward programs, and engagement measurement.",Bob,Heidi,Story,Medium,Open,CRM,25-05-2025,06-06-2025
+SWP-186,Operational Efficiency,"Create efficiency optimization system with process analysis, waste reduction, and productivity improvement.",Bob,Heidi,Story,Medium,In Progress,Workflow,26-06-2025,04-07-2025
+SWP-187,Strategic Analytics,"Create strategy analysis system with performance measurement, market assessment, and decision support.",Diana,Ivan,Story,Medium,Open,Analytics,29-05-2025,08-06-2025
+SWP-188,Customer Personalization,"Create personalization engine with preference tracking, content customization, and experience optimization.",Frank,Grace,Story,Medium,In Progress,Personalization,17-05-2025,29-05-2025
+SWP-189,Digital Ecosystem,"Create platform integration system with API management, data sharing, and ecosystem orchestration.",Bob,Judy,Epic,High,In Progress,Integration,10-06-2025,15-06-2025
+SWP-190,Business Intelligence Hub,"Create analytics centralization system with data warehousing, reporting, and self-service capabilities.",Frank,Heidi,Epic,High,In Progress,Analytics,23-06-2025,02-07-2025
+SWP-191,Business Optimization Engine,"Create optimization platform with process improvement, resource allocation, and performance enhancement.",Frank,Judy,Story,Medium,In Progress,Workflow,07-07-2025,18-07-2025
+SWP-192,Customer Experience Management,"Create experience tracking system with journey mapping, feedback collection, and improvement planning.",Frank,Ivan,Story,Medium,In Progress,Analytics,14-05-2025,26-05-2025
+SWP-193,Digital Strategy Execution,"Create strategy implementation system with initiative tracking, resource management, and progress monitoring.",Charlie,Heidi,Story,Medium,Open,Planning,21-06-2025,05-07-2025
+SWP-194,Enterprise Analytics Platform,"Create comprehensive analytics system with data integration, visualization, and business intelligence capabilities.",Eve,Judy,Epic,High,In Progress,Analytics,20-05-2025,29-05-2025
