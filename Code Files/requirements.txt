@@ -1,7 +1,20 @@
-streamlit
-numpy
-pandas
-scikit-learn
-xgboost
-matplotlib
-seaborn 
+# Core app and dashboard
+streamlit==1.32.2
+
+# Data manipulation
+numpy==1.24.4
+pandas==1.5.3
+
+# Machine learning
+scikit-learn==1.2.2
+xgboost==1.7.6
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# For progress bars and caching (used by Streamlit)
+tqdm==4.66.2
+
+# For compatibility with some cloud environments
+pillow==9.5.0
